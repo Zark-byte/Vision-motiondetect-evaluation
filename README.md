@@ -1,8 +1,8 @@
-Vision-MotionDetect-Evaluation
+# Vision-MotionDetect-Evaluation
 
 A computer vision-based 3D human motion detection and evaluation system that utilizes MediaPipe for pose estimation and RNN (Recurrent Neural Network) for intelligent motion assessment. This system can analyze human movements from standard videos and provide professional evaluation feedback.
 
-✨ Key Features
+## ✨ Key Features
 
 • 3D Motion Capture: Extract 3D human pose data from regular 2D videos using MediaPipe
 
@@ -14,7 +14,7 @@ A computer vision-based 3D human motion detection and evaluation system that uti
 
 • Comprehensive Feedback: Generate detailed evaluation reports on movement quality and form
 
-🛠️ Prerequisites & Installation
+## 🛠️ Prerequisites & Installation
 
 Python Environment
 
@@ -24,22 +24,22 @@ Python Environment
 
 Install Dependencies
 
-# Install required packages
+Install required packages
 pip install -r requirements.txt
 
 
 Or install manually:
-# Core computer vision and machine learning
+Core computer vision and machine learning
 pip install opencv-python mediapipe tensorflow keras numpy scipy
 
-# Data processing and visualization
+Data processing and visualization
 pip install matplotlib pandas scikit-learn
 
-# Utilities
+Utilities
 pip install tqdm pillow
 
 
-🚀 Quick Start
+## 🚀 Quick Start
 
 1. Clone the Repository
 
@@ -67,7 +67,7 @@ Step 3: Comprehensive Analysis (Main Pipeline)
 python main.py --video examples/example1.mp4 --evaluate --visualize
 
 
-🔧 Usage Examples
+## 🔧 Usage Examples
 
 Basic Video Analysis
 
@@ -89,7 +89,7 @@ Advanced Options
 python main.py --video exercise.mp4 --confidence 0.7 --smooth_landmarks --min_detection_confidence 0.5
 
 
-🧠 Technical Architecture
+## 🧠 Technical Architecture
 
 1. 3Dcapture.py - Pose Estimation Module
 
@@ -127,7 +127,7 @@ python main.py --video exercise.mp4 --confidence 0.7 --smooth_landmarks --min_de
 
 • Manages configuration parameters and result presentation
 
-📊 Output and Results
+## 📊 Output and Results
 
 The system generates comprehensive evaluation reports including:
 
@@ -139,7 +139,7 @@ The system generates comprehensive evaluation reports including:
 
 • Progress Tracking: Historical performance data (when analyzing multiple sessions)
 
-🧪 Testing and Validation
+## 🧪 Testing and Validation
 
 Run the test suite to verify installation and basic functionality:
 python TEST.py
@@ -149,7 +149,7 @@ For model performance testing:
 python TEST.py --model_validation --test_set test_videos/
 
 
-🔬 Customization and Extension
+## 🔬 Customization and Extension
 
 Adding New Exercise Models
 
@@ -161,7 +161,7 @@ Modifying Evaluation Criteria
 
 Edit the assessment parameters in the evaluation module to match specific professional standards or personal requirements.
 
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see our CONTRIBUTING.md for details.
 
@@ -171,11 +171,7 @@ We welcome contributions! Please see our CONTRIBUTING.md for details.
 4. Push to the branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-📞 Contact and Support
+## 📞 Contact and Support
 
 • Project Maintainer: Zark-byte
 
@@ -183,7 +179,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For bug reports and feature requests, welcome to communicate with me.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 • https://mediapipe.dev/ for the robust pose estimation pipeline
 
